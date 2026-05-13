@@ -1,0 +1,42 @@
+/* 열기 버튼 */
+.openBtn {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* 모달 배경 */
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.5);
+
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+}
+
+/* 모달창 */
+.modal-content {
+  width: 300px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+/* 닫기 버튼 */
+.closeBtn {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+
+  cursor: pointer;
+  font-size: 20px;
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>QC Dashboard</title>
+    <link rel="stylesheet" href="ex1.css" />
+    <script src="ex1.js"></script>
+  </head>
+  <body>
+    <h1>QC Dashboard</h1>
+
+    <div class="input-box">
+      <input type="date" id="date" />
+      <input type="number" id="total" placeholder="생산량" />
+      <input type="number" id="defect" placeholder="불량수" />
+      <button id="addBtn">추가</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>날짜</th>
+          <th>생산량</th>
+          <th>불량수</th>
+          <th>불량률</th>
+        </tr>
+      </thead>
+      <tbody id="dataList"></tbody>
+    </table>
+  </body>
+</html>

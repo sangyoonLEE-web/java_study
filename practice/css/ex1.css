@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-box {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+input, button {
+  padding: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.high {
+  background-color: #ffcccc;
+}
